@@ -1,0 +1,4 @@
+nkStack:LinkStack.c testLinkStack.c
+		gcc LinkStack.c testLinkStack.c -o tLinkStack
+clean:
+	      rm LinkStack
